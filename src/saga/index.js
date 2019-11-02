@@ -1,19 +1,24 @@
-import { delay } from 'redux-saga';
-import { take, fork, call, put, select, takeEvery, takeLatest, all } from 'redux-saga/effects';
+import { take, takeLatest, call } from 'redux-saga/effects';
+import { incrementAsync, decrementAsync } from './counter'
+import { USERS_HANDLERS } from './user'
 
-// Our worker Saga: 将执行异步的 increment 任务
-function* incrementAsync() {
-    // yield delay(1000);
-    yield put({ type: 'INCREMENT', value:1 })
-}
-function* decrementAsync() {
-    // yield delay(1000);
-    yield put({ type: 'DECREMENT', value:1})
-}
+import * as constants from '../constant'
+const USERS = Object.keys(constants.Users);
 
 export default function* rootSaga() {
-    while (true) {
-        yield takeEvery('INCREMENT_ASYNC', incrementAsync);
-        yield takeEvery('DECREMENT_ASYNC', decrementAsync);
+    // const action = yield take('*');
+    // const state = yield select();
+    // console.log(action);
+
+    yield takeLatest('INCREMENT_ASYNC', incrementAsync);
+    yield takeLatest('DECREMENT_ASYNC', decrementAsync);
+
+    while (true){
+        const Action = yield take(USERS);
+        const TaskName = USERS.find(x => x === Action.type);
+        console.log(TaskName);
+        yield call(USERS_HANDLERS.HANDLER_REQUEST_USERS_LOADING, { loading: true });
+        yield call(USERS_HANDLERS[TaskName], Action);
+        yield call(USERS_HANDLERS.HANDLER_REQUEST_USERS_LOADING, { loading: false });
     }
 }
