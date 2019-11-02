@@ -9,7 +9,6 @@ export default function* rootSaga() {
     // const action = yield take('*');
     // const state = yield select();
     // console.log(action);
-
     yield takeLatest('INCREMENT_ASYNC', incrementAsync);
     yield takeLatest('DECREMENT_ASYNC', decrementAsync);
 

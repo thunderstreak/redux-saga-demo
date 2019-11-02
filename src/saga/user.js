@@ -34,7 +34,7 @@ function* updateData(payload){
     const res = yield call(userServices.patch, id, values);
     const item = yield select(state => {
         const row = state.users.list.find(x => x.id === id);
-        return { ...row, ...res };
+        return { ...row, ...values };
     });
 
     yield put({
@@ -46,6 +46,7 @@ function* updateData(payload){
 // 删除
 function* deleteDate(payload){
     const { id } = payload;
+    // const res = yield call(userServices.remove, id);
     const list = yield select(state => state.users.list.filter(x => x.id !== id));
 
     yield put({
