@@ -14,6 +14,7 @@ function* fetchData(payload) {
             page: Number(page)
         }
     });
+    return data
 }
 
 // 新建

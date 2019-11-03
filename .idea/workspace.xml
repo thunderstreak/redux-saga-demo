@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbc994ed-a57c-46e5-b4b1-3ff7e02c351c" name="Default" comment="redux-saga">
-      <change afterPath="$PROJECT_DIR$/src/saga/saga-logger.js" afterDir="false" />
+    <list default="true" id="cbc994ed-a57c-46e5-b4b1-3ff7e02c351c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/saga/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/saga/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/saga/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/saga/user.js" afterDir="false" />
@@ -19,11 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/saga/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+            <state relative-caret-position="520">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
                 <element signature="e#0#60#0" expanded="true" />
               </folding>
@@ -52,8 +63,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/redux/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+            <state relative-caret-position="468">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding>
                 <element signature="e#0#69#0" expanded="true" />
               </folding>
@@ -73,11 +84,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <file leaf-file-name="Counter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Counter/Counter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+            <state relative-caret-position="364">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Counter/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,8 +111,8 @@
       <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/saga/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="390">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding>
                 <element signature="e#0#95#0" expanded="true" />
               </folding>
@@ -99,18 +125,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
               <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/User/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="92" column="33" lean-forward="true" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -173,8 +187,8 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/tools/demo.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/saga/user.js" />
         <option value="$PROJECT_DIR$/src/saga/saga-logger.js" />
+        <option value="$PROJECT_DIR$/src/saga/user.js" />
         <option value="$PROJECT_DIR$/src/saga/index.js" />
       </list>
     </option>
@@ -351,7 +365,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572444529151</updated>
       <workItem from="1572444530295" duration="15500000" />
-      <workItem from="1572662268554" duration="16838000" />
+      <workItem from="1572662268554" duration="19300000" />
     </task>
     <task id="LOCAL-00001" summary="redux-saga">
       <created>1572677357607</created>
@@ -360,11 +374,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572677357607</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="redux-saga">
+      <created>1572684974745</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572684974745</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32338000" />
+    <option name="totallyTimeSpent" value="34800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -554,16 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tools/request.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -679,26 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Counter/Counter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Counter/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="38" column="86" lean-forward="true" selection-start-line="38" selection-start-column="86" selection-end-line="38" selection-end-column="86" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/User/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -733,43 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/saga/counter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/saga/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -784,10 +738,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/saga/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Counter/Counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Counter/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/saga/counter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/saga/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/saga/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
             <element signature="e#0#60#0" expanded="true" />
           </folding>

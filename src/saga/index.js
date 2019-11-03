@@ -17,7 +17,8 @@ export default function* rootSaga() {
         const TaskName = USERS.find(x => x === Action.type);
         console.log(TaskName);
         yield call(USERS_HANDLERS.HANDLER_REQUEST_USERS_LOADING, { loading: true });
-        yield call(USERS_HANDLERS[TaskName], Action);
+        const res = yield call(USERS_HANDLERS[TaskName], Action);
+        console.log(res);
         yield call(USERS_HANDLERS.HANDLER_REQUEST_USERS_LOADING, { loading: false });
     }
 }
