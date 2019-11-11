@@ -19,14 +19,17 @@ function* fetchData(payload) {
 
 // 新建
 function* createData(payload) {
-    const { id } = yield call(userServices.create, payload.data);
-    const list = yield select(state => state.users.list);
-    const item = { ...list[0], ...payload, id };
-
-    yield put({
-        type: 'REQUEST_USERS_CREATE',
-        payload: item
-    });
+    try {
+        const { data: { id } } = yield call(userServices.create, payload.data);
+        const list = yield select(state => state.users.list);
+        const item = { ...list[0], ...payload.data, id };
+        yield put({
+            type: 'REQUEST_USERS_CREATE',
+            payload: item
+        });
+    }catch (e) {
+        console.log(e);
+    }
 }
 
 // 更新

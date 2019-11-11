@@ -1,17 +1,17 @@
 import { take, takeLatest, call } from 'redux-saga/effects';
 import { incrementAsync, decrementAsync } from './counter'
 import { USERS_HANDLERS } from './user'
+import { watchAndLog } from './saga-logger'
 
 import * as constants from '../constant'
 const USERS = Object.keys(constants.Users);
 
 export default function* rootSaga() {
-    // const action = yield take('*');
-    // const state = yield select();
-    // console.log(action);
+
+    watchAndLog();
+
     yield takeLatest('INCREMENT_ASYNC', incrementAsync);
     yield takeLatest('DECREMENT_ASYNC', decrementAsync);
-
     while (true){
         const Action = yield take(USERS);
         const TaskName = USERS.find(x => x === Action.type);

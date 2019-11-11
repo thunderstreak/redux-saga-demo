@@ -20,13 +20,13 @@ console.log(x); // {c: 3, d: 4}
 let n = { n: 6, ...x };
 console.log(n); // {n: 6, c: 3, d: 4}*/
 // 合并
-const arr = [1, 2, 3];
-console.log(...arr);// ?
-
-let x = { c: 3, d: 4 };
-let y = { y: 10 };
-console.log({ ...y, ...x }); // {y: 10, c: 3, d: 4}
-console.log(...y); // ?
+// const arr = [1, 2, 3];
+// console.log(...arr);// ?
+//
+// let x = { c: 3, d: 4 };
+// let y = { y: 10 };
+// console.log({ ...y, ...x }); // {y: 10, c: 3, d: 4}
+// console.log(...y); // ?
 
 
 
